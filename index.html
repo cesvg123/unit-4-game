@@ -1,12 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col mb-3" id="gameTitle">
+                <h1>Crystal Collector!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col mb-3" id="gameInstructions">
+                <p>You will be given a random number at the start of each game.</p>
+                <p>The are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your total score</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total
+                    score goes above the random number</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3 id="targetNumber">Target: 00</h3>
+            </div>
+            <div class="col-sm-4" id="scoreboard">
+                <p id="gameWins">Wins: 0</p>
+                <p id="gameLosses">Losses: 0</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="gemImage">
+                <img src="assets/images/pic-1.png" id="g0" class="gemImages">
+                <img src="assets/images/pic-2.png" id="g1" class="gemImages">
+                <img src="assets/images/pic-3.png" id="g2" class="gemImages">
+                <img src="assets/images/pic-4.png" id="g3" class="gemImages">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <h3 id="progressToTarget">Your total score is: 0</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            &copy;&thinsp;2018 &nbsp; Cesar Sanchez-Vegas
+        </div>
+    </footer>
+
 </body>
-</html>

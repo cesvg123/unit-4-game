@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    margin: left;
+    margin: 10;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: lightblue;
+}
+
+#gameTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    margin: left;
+    background: orange;
+}
+
+#gameInstructions {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    margin: left;
+    background: burlywood;
+}
+
+#targetNumber {
+background: gold;
+}
+
+#scoreboard {
+    background: green;
+}
+.gemImages {
+    width: 72px;
+    height: 72px;
+}
+
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    font-weight: bold;
+    margin: left;
+}
+
+#progressToTarget {
+    margin: 10;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin: left;
+    background: aquamarine;
+}
+
+.footer {
+    font-size: 10px;
+    color: #ffffff;
+    color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
